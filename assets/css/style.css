@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
 }
 #header.header-scrolled, #header.header-inner {
-  background: rgba(228, 228, 228, 0.647);
+  background: rgba(253, 253, 253, 0.71);
   backdrop-filter: blur(10px);
   height: 70px;
 }
@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #f82249;
 }
 #header #logo h1 a, #header #logo h1 a:hover {
-  color: #fff;
+  color: #323232;
 }
 #header #logo img {
   padding: 0;
@@ -210,9 +210,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar > ul > li {
   white-space: nowrap;
-  padding: 10px 0 10px 12px;
+  /* padding: 10px 0 10px 12px; */
 }
 .navbar a, .navbar a:focus {
+  padding: 10px 0 10px 12px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -306,7 +307,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #6e6e6e;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -324,6 +325,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .navbar-mobile {
+  height: 100vh;
   position: fixed;
   overflow: hidden;
   top: 0;
@@ -450,7 +452,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #hero p {
-  color: #ebebeb;
+  color: #545454;
   font-weight: 700;
   font-size: 20px;
 }
@@ -605,7 +607,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #about p {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 20px;
   color: #fff;
 }
@@ -695,7 +697,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #speakers-details .details p {
   color: #112363;
-  font-size: 15px;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 
@@ -818,8 +820,9 @@ h1, h2, h3, h4, h5, h6 {
 #venue .venue-info {
   background-size: cover;
   position: relative;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
 }
 #venue .venue-info:before {
   content: "";
@@ -1034,7 +1037,7 @@ h1, h2, h3, h4, h5, h6 {
 #contact .php-email-form input, #contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
-  font-size: 14px;
+  font-size: 16px;
 }
 #contact .php-email-form input:focus, #contact .php-email-form textarea:focus {
   border-color: #f82249;
@@ -1081,7 +1084,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #101522;
   padding: 0 0 25px 0;
   color: #eee;
-  font-size: 14px;
+  font-size: 16px;
 }
 #footer .footer-top {
   background: #040919;
@@ -1104,7 +1107,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
 }
 #footer .footer-top .footer-info p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
@@ -1133,7 +1136,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #footer .footer-top h4 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   color: #fff;
   text-transform: uppercase;
@@ -1319,4 +1322,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: .75rem;
   vertical-align: top;
   border-top: 1px solid #dee2e6;
+}
+
+.map-description {
+  font-weight: 600;
 }

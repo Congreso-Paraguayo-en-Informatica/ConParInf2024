@@ -1323,3 +1323,23 @@ section {
 .map-description {
   font-weight: 600;
 }
+
+#btn-viernes, #btn-sabado  {
+  border: 1px solid transparent;       
+  background-color: #fff; 
+  color: #040919; 
+  padding: 10px 20px; 
+  margin-right: 10px; 
+}
+
+#btn-viernes:hover{
+  border: 1px solid red;
+  color: #040919; 
+  cursor: pointer;   
+}
+
+#btn-sabado:hover{
+  border: 1px solid red; 
+  color: #040919; 
+  cursor: pointer;
+}

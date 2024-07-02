@@ -181,6 +181,34 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0.5rem;
 }
 
+.ponencias a{
+  cursor: pointer;
+  width: 100%;
+}
+
+.ponencia-card {
+  padding: 1em;
+  width: max-content;
+  margin: auto;
+  border-radius: 0.5em;
+}
+
+.ponencia-card:hover{
+  background-color: var(--background-secondary);
+}
+
+
+.ponencia-img {
+  width: 20em;
+}
+
+.ponencia-tema {
+  color: var(--background);
+  width: 20vw;
+  margin: 0!important;
+  font-weight: 700!important;
+}
+
 @media (max-width: 992px) {
   #header #logo img {
     max-height: 30px;
@@ -200,6 +228,16 @@ h1, h2, h3, h4, h5, h6 {
   }
   .organizadores-block img {
     width: 100px;
+  }
+
+  .ponencia-tema {
+    width: 90%;
+    overflow-wrap: break-word;
+    margin: 0!important;
+  }
+
+  .ponencia-card{
+    padding: 0;
   }
 
 }

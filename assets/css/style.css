@@ -199,12 +199,16 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .ponencia-img {
-  width: 20em;
+  width: 20rem;
+  height: 15em;
 }
 
 .ponencia-tema {
-  color: var(--background);
   width: 20vw;
+}
+
+.ponencia-tema h2{
+  color: var(--background);
   margin: 0!important;
   font-weight: 700!important;
 }
@@ -231,8 +235,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .ponencia-tema {
-    width: 90%;
-    overflow-wrap: break-word;
+    width: 20rem;
     margin: 0!important;
   }
 

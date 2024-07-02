@@ -159,6 +159,13 @@ h1, h2, h3, h4, h5, h6 {
   #header #logo img {
     max-height: 30px;
   }
+
+  .animation.binaries {
+    bottom: -25%;
+    left: 25%;
+    width: 450px;
+  }
+
 }
 
 /*--------------------------------------------------------------
@@ -308,7 +315,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #6e6e6e;
+  color: #fff;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -1359,14 +1366,13 @@ section {
 
 .animation.computer {
   position:fixed;
-  right: 8%;
-  top: -455px;
+  right: 7%;
+  top: -330px;
 }
 
 .animation.binaries {
   position: fixed;
-  right: 8%;
-  bottom: -25%;
-  background-color: #a30e2a;
+  right: 0;
+  bottom: -20%;
   opacity: 0.5;
 }

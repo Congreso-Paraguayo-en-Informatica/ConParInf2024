@@ -1451,6 +1451,15 @@ section {
   cursor: pointer;
 }
 
+.btn-active{
+  border: none !important; 
+  border-bottom: 4px solid #f30a0a !important;
+}
+
+.bg-inactive{
+  background-color: #a8a8a8 !important;
+}
+
 .animation  {
   opacity: 0.3;
   z-index: -1;

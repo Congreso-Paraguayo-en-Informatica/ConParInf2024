@@ -932,7 +932,7 @@ section {
 }
 #venue .venue-info:before {
   content: "";
-  background: rgba(13, 20, 41, 0.8);
+  background: var(--background);
   position: absolute;
   bottom: 0;
   top: 0;

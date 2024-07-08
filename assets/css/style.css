@@ -1438,22 +1438,14 @@ section {
   margin-right: 10px; 
 }
 
-#btn-viernes:hover{
-  border: 2px solid var(--secondary-color);
-
-  color: var(--primary-color); 
-  cursor: pointer;   
-}
-
-#btn-sabado:hover{
+#btn-viernes:hover, #btn-sabado:hover{
   border: 2px solid var(--secondary-color);
   color: var(--primary-color); 
   cursor: pointer;
 }
 
 .btn-active{
-  border: none !important; 
-  border-bottom: 4px solid #f30a0a !important;
+  border-bottom: 2px solid #f30a0a !important;
 }
 
 .bg-inactive{

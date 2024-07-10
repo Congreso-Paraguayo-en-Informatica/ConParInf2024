@@ -162,12 +162,6 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo h1 a, #header #logo h1 a:hover {
   color: #fff;
 }
-#header #logo img {
-  padding: 0;
-  margin: 0;
-  max-height: 40px;
-}
-
 
 
 .organizadores-block h4 {
@@ -177,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .fecha {
   color: white;
-  padding: 0.4rem 1rem !important;
+  margin-bottom: 1rem;
   border-radius: 0.5rem;
 }
 
@@ -226,12 +220,15 @@ h1, h2, h3, h4, h5, h6 {
     width: 450px !important;
   }
 
+  .organizadores-block h4  {
+    margin: 1rem 0 !important;
+  }
   
   .organizadores-block {
     width: auto;
   }
   .organizadores-block img {
-    width: 100px;
+    width: 80px;
   }
 
   .ponencia-tema {
@@ -242,6 +239,9 @@ h1, h2, h3, h4, h5, h6 {
   .ponencia-card{
     padding: 0;
   }
+
+
+
 
 }
 
@@ -564,10 +564,39 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-size: 20px;
 }
+
+@media(max-width:1366px){
+
+  #hero h1 {
+    font-size: 4rem;
+  }
+  #hero h2 {
+    font-size: 1.5rem;
+  }
+
+  .logo {
+    width: 10rem!important;
+    height: 10rem!important;
+  }
+}
+
 @media (max-width: 991px) {
   #hero p {
     font-size: 16px;
   }
+  
+  #hero h1 {
+    font-size: 30px;
+  }
+
+  #hero h2 {
+    font-size: 20px;
+  }
+
+  #hero h4 {
+    font-size: 16px;
+  }
+
 }
 #hero .play-btn {
   width: 94px;
@@ -1473,3 +1502,11 @@ section {
 table {
   background: white;
 }
+
+.logo {
+  width: 23rem;
+  height: 23rem;
+  filter: brightness(100);
+  margin: 0 auto;
+}
+

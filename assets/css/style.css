@@ -1511,3 +1511,6 @@ table {
   margin: 0 auto;
 }
 
+.colaborador {
+  filter: brightness(0);
+}

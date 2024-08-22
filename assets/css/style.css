@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600 !important;
   margin: 0 0 20px 0;
   padding: 0;
-  color: var(--text-color);
+  color: var(--text-color) !important;
 }
 
 .main-page {

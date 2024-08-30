@@ -1514,3 +1514,7 @@ table {
 .colaborador {
   filter: brightness(0);
 }
+
+.auspiciente-logo {
+  width: 12rem;
+}
